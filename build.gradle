@@ -1,0 +1,40 @@
+plugins {
+    id 'application'
+    id 'jacoco'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.formdev:flatlaf:3.2.1'
+    implementation 'com.seaglasslookandfeel:seaglasslookandfeel:0.1.6.1'
+    implementation 'org.mindrot:jbcrypt:0.4'
+
+
+    // Use JUnit test framework.
+    testImplementation 'junit:junit:4.13.2'
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:31.1-jre'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.1'
+}
+
+test {
+    useJUnit()
+}
+
+application {
+    mainClassName = "GUI.Main"
+}
+
+jacocoTestReport {
+    classDirectories.setFrom(
+            fileTree(dir: "build/classes/java/main")
+                    .filter({file -> !file.name.contains('Window') && !file.name.contains('Pane')  && !file.name.contains('Main')})
+    )
+}
