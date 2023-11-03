@@ -1,4 +1,4 @@
-# Lab24-Ankit-Group2-A2
+# Scroll Editor
 
 ## Table of Contents
 **[Overview](#Overview)**<br>
@@ -6,7 +6,6 @@
 **[Features](#Features)**<br>
 **[Execute](#Execute)**<br>
 **[Testing](#Testing)**<br>
-**[Authors](#Authors)**<br>
 **[Acknowledgments](#Acknowledgments)**<br>
 
 ## Overview
@@ -140,15 +139,6 @@ To generate JaCoCo test report
 ```
 gradle test jacocoTestReport
 ```
-
-<br/>
-
-## Authors
-* Lan Linh Nguyen
-* Tengyue Zhang
-* Daniel Wilson Lyu
-* Cindy Yang
-* Zhonghao Wei
 
 <br/>
 
