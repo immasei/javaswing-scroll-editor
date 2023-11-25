@@ -6,7 +6,7 @@
 **[Features](#Features)**<br>
 **[Execute](#Execute)**<br>
 **[Testing](#Testing)**<br>
-**[Acknowledgments](#Acknowledgments)**<br>
+**[References](#References)**<br>
 
 ## Overview
 In this project, we are aiming to design a software product by using Scrum methodology and Agile development practice from design and develop the Virtual Scroll Access System (VSAS), a digital repository to grant Whiskers access to the library's knowledge, represented as downloadable binary files. This system will serve as a portal to the realm of digital wisdom, where library staff and members can efficiently access, download and upload these files.
