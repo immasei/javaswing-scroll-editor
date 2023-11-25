@@ -19,10 +19,6 @@ In this project, we are aiming to design a software product by using Scrum metho
     * `Log in` if existing users ; `Sign up` if new user ; `Guest` can only preview scroll. 
     * `Sign up`: `Email` must contain `@`. `Tel` must be an `int`.
     * `Scroll` must be a `.bin` file. 
-* **Jenkins**
-    * IP: 139.180.167.56
-    * Username: lngu8896
-    * Password: #Nnv18061969
 
 ### Dependencies
 
