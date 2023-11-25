@@ -61,7 +61,7 @@ In this project, we are aiming to design a software product by using Scrum metho
 
 
 ### Execute
-Clone the repo, `cd` to `Lab24-Ankit-Group2-A2` 
+Clone the repo, `cd` to `java-scroll-editor` 
 ```
 gradle clean build run
 ```
