@@ -59,7 +59,6 @@ In this project, we aim to develop the Virtual Scroll Access System (VSAS), a di
     
 <br/>
 
-
 ### Execute
 Clone the repo, `cd` to `java-scroll-editor` 
 ```
