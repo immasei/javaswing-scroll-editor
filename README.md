@@ -14,16 +14,23 @@ In this project, we aim to develop the Virtual Scroll Access System (VSAS), a di
 
 ## Getting Started
 
+### Dependencies
+
+* JDK 17
+* Gradle 8.3
+
+### Execute
+Clone the repo, `cd` to `javaswing-scroll-editor` 
+```
+gradle clean build run
+```
+
 ### Important Notes:
 * **Application**
     * `Log in` if existing users ; `Sign up` if new user ; `Guest` can only preview scroll. 
     * `Sign up`: `Email` must contain `@`. `Tel` must be an `int`.
     * `Scroll` must be a `.bin` file.
     * In our context, `.bin` file is basically a text file that contains only 0 and 1.
-
-### Dependencies
-
-* Java SE Development Kit (JDK) 17
 
 ### Features
 
@@ -59,12 +66,6 @@ In this project, we aim to develop the Virtual Scroll Access System (VSAS), a di
     * **`Optional password` for all accounts when sign up**
     
 <br/>
-
-### Execute
-Clone the repo, `cd` to `java-scroll-editor` 
-```
-gradle clean build run
-```
 
 <strong>Login</strong>
 * User that has an `optional password`, must sign in using both passwords
