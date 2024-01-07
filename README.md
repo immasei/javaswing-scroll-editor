@@ -3,8 +3,8 @@
 ## Table of Contents
 **[Overview](#Overview)**<br>
 **[Dependencies](#Dependencies)**<br>
-**[Features](#Features)**<br>
 **[Execute](#Execute)**<br>
+**[Features](#Features)**<br>
 **[Testing](#Testing)**<br>
 **[References](#References)**<br>
 
